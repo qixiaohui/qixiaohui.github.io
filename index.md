@@ -6,8 +6,8 @@
   <input id="productInput" type="radio" name="product" value="A" checked> A<br>
   <input id="productInput" type="radio" name="product" value="B"> B<br>
   <input id="productInput" type="radio" name="product" value="C"> C<br>
-  
-  Number of Products: 
+
+  Number of Products:
   <select id="numSelect" name="num">
     <option value="1">1</option>
     <option value="2">2</option>
@@ -20,10 +20,12 @@
     <option value="9">9</option>
     <option value="10">10</option>
   </select><br><br>
-  
+
   Please help us click "Buy"! (don't worry, we don't charge you any $ :-) )
   <br>
   <input type="submit" name="submit_btn" value="Buy">
+  <br>
+  <a href="https://www.amazon.com" addestination="https://www.facebook.com" adcampaignid="55" />
   </fieldset>
 </form>
 
