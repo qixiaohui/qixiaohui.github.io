@@ -25,7 +25,7 @@
   <br>
   <input type="submit" name="submit_btn" value="Buy">
   <br>
-  <a href="https://www.amazon.com" addestination="https://www.facebook.com" adcampaignid="55" />
+  <a href="https://www.amazon.com" addestination="https://www.facebook.com" adcampaignid="55"> GO TO AMAZON </a>
   </fieldset>
 </form>
 
