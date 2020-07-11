@@ -27,7 +27,7 @@
   <br>
   <a href="https://www.amazon.com" addestination="https://www.amazon.com" adcampaignid="55"> GO TO AMAZON </a>
   </fieldset>
-  <a href="https://www.amazon.com" addestination="https://www.amazon.com" adcampaignid="55"> GO TO AMAZON </a>
+  <a href="https://www.amazon.com" adcampaignid="55"> GO TO AMAZON </a>
 </form>
 
 ### Go to [Amazon](https://www.amazon.com)
