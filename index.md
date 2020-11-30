@@ -36,6 +36,7 @@
 ### Go to [Facebook](https://www.facebook.com)
 
 <script src="script.js"></script>
+<script src="https://connect.facebook.net/signals/config/144682222847096?v=next&amp;r=canary" async=""></script>
 <script>
   !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
