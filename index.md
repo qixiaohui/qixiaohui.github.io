@@ -49,7 +49,5 @@ fbq('init', '144682222847096');
 fbq('trackSingle', '144682222847096', 'PageView');
 </script>
 <script type='text/javascript'>
-  window.onload = function() {
-    window.postMessage({123: "123"});
-  }
+  window.setTimeout(() => {window.postMessage({123: "123"})}, 1000);
 </script>
