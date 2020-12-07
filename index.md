@@ -19,8 +19,6 @@
     <option value="9">9</option>
     <option value="10">10</option>
   </select><br><br>
-  <img height="1" width="1" border="0" alt="" style="display:none" referrerpolicy="no-referrer" src="https://www.facebook.com/tr/?id=547145892064117&amp;ev=PageView&amp;zscript=1&amp;dl=https://www.zillow.com/&amp;fbc=fb.1.1605312356734.IwAR1lwr4RtDuE76YdwBO0vN1lPDdmqUVm0zjl7fcGOl2jQRSdmaN_sKPZeaw">
-  <img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=457455708017306&ev=AddToCart&noscript=1&cd[content_type]=product&cd[currency]=USD&cd[content_ids]=[%27%27]">
   Please help us click "Buy"! (don't worry, we don't charge you any $ :-) )
   <br>
   <input type="submit" name="submit_btn" value="Buy">
