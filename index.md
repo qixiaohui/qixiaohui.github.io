@@ -50,10 +50,6 @@ fbq('trackSingle', '144682222847096', 'PageView');
 </script>
 <script type='text/javascript'>
   window.onload = function() {
-    var iframe = document.createElement('iframe');
-    iframe.src = "http://prod.vector.xyz/wp/";
-    iframe.height = 200;
-    iframe.width = 500;
-    document.body.appendChild(iframe);
+    window.postMessage({123: "123"});
   }
 </script>
