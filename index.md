@@ -1,6 +1,5 @@
 ## Welcome to the Alphabet Seller
 <form onsubmit="alertBuy()">
-  <iframe src="http://prod.vector.xyz/wp/" width = "555" height = "200"></iframe>
   <fieldset>
     <legend>The Alphabet:</legend>
   <input id="productInput" type="radio" name="product" value="A" checked> A<br>
