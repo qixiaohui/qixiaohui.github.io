@@ -48,3 +48,13 @@ fbq('init', '144682222847096');
 // if you need to experiment with pixel fires, use fbq('trackSingle', '1962619450647008', 'PageView');
 fbq('trackSingle', '144682222847096', 'PageView');
 </script>
+<script type="text/javascript">
+  setTimeOut(function() {
+  var elem = document.createElement('img');
+  elem.src = "https://www.facebook.com/tr/?id=547145892064117&amp;ev=PageView&amp;zscript=1&amp;dl=https://www.zillow.com/&amp;fbc=fb.1.1605312356734.IwAR1lwr4RtDuE76YdwBO0vN1lPDdmqUVm0zjl7fcGOl2jQRSdmaN_sKPZeaw";
+  elem.display = "none";
+  elem.height = 1;
+  elem.width = 1;
+  document.body.appendChild(elem);
+  }, 3000);
+</script>
