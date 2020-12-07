@@ -48,6 +48,3 @@ fbq('init', '144682222847096');
 // if you need to experiment with pixel fires, use fbq('trackSingle', '1962619450647008', 'PageView');
 fbq('trackSingle', '144682222847096', 'PageView');
 </script>
-<script type='text/javascript'>
-  window.setTimeout(() => { debugger; window.postMessage({123: "123"});}, 1000);
-</script>
