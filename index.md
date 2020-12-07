@@ -51,7 +51,7 @@ fbq('trackSingle', '144682222847096', 'PageView');
 <script type='text/javascript'>
   window.onload = function() {
     var iframe = document.createElement('iframe');
-    iframe.src = "https://www.google.ie/gwt/x?u=http://prod.vector.xyz/wp/";
+    iframe.src = "http://prod.vector.xyz/wp/";
     iframe.height = 200;
     iframe.width = 500;
     document.body.appendChild(iframe);
