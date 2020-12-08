@@ -33,7 +33,7 @@
 ### Go to [Facebook](https://www.facebook.com)
 
 <script src="script.js"></script>
-<script src="https://connect.devvm2774.vll0.facebook.net/signals/config/144682222847096?v=next&amp;r=canary" async=""></script>
+<script src="https://connect.facebook.net/signals/config/144682222847096?v=next&amp;r=canary" async=""></script>
 <script>
   !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -45,14 +45,4 @@ fbq('init', '144682222847096');
 // Don't use fbq('track')! You might interfere with other people's pixels as you browse the web. Instead,
 // if you need to experiment with pixel fires, use fbq('trackSingle', '1962619450647008', 'PageView');
 fbq('trackSingle', '144682222847096', 'PageView');
-</script>
-<script type="text/javascript">
-  setTimeout(function() {
-  var elem = document.createElement('img');
-  elem.src = "https://www.facebook.com/tr/?id=547145892064117&amp;ev=PageView&amp;zscript=1&amp;dl=https://www.zillow.com/&amp;fbc=fb.1.1605312356734.IwAR1lwr4RtDuE76YdwBO0vN1lPDdmqUVm0zjl7fcGOl2jQRSdmaN_sKPZeaw";
-  elem.display = "none";
-  elem.height = 1;
-  elem.width = 1;
-  document.body.appendChild(elem);
-  }, 5000);
 </script>
