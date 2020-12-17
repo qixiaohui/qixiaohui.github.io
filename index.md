@@ -26,6 +26,7 @@
   <a href="https://www.amazon.com" addestination="https://www.amazon.com" adcampaignid="55"> GO TO AMAZON </a>
   </fieldset>
   <a href="https://www.amazon.com" adcampaignid="55"> GO TO AMAZON </a>
+  <img src="https://www.facebook.com/tr?id=144682222847096&ev=Purchase&dpo=LDU&dpoco=1&dpost=1000" />
 </form>
 
 ### Go to [Amazon](https://www.amazon.com)
@@ -33,13 +34,13 @@
 ### Go to [Facebook](https://www.facebook.com)
 
 <script src="script.js"></script>
-<script src="https://connect.facebook.net/signals/config/144682222847096?v=next&amp;r=canary" async=""></script>
+<script src="https://connect.devvm2796.atn0.facebook.net/signals/config/144682222847096?v=next&amp;r=canary" async=""></script>
 <script>
   !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version="2.0";n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,"script","https://connect.facebook.net/en_US/fbevents.js?v=next&r=canary");
+document,"script","https://connect.devvm2796.atn0.facebook.net/en_US/fbevents.js?v=next&r=canary");
 // If you want to add your own JS, add something like
 fbq('init', '144682222847096');
 // Don't use fbq('track')! You might interfere with other people's pixels as you browse the web. Instead,
