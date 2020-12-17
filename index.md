@@ -46,4 +46,5 @@ fbq('init', '144682222847096');
 // Don't use fbq('track')! You might interfere with other people's pixels as you browse the web. Instead,
 // if you need to experiment with pixel fires, use fbq('trackSingle', '1962619450647008', 'PageView');
 fbq('trackSingle', '144682222847096', 'PageView');
+fbq('dataProcessingOptions', ['LDU'], 1, 1000);
 </script>
