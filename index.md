@@ -26,7 +26,6 @@
   <a href="https://www.amazon.com" addestination="https://www.amazon.com" adcampaignid="55"> GO TO AMAZON </a>
   </fieldset>
   <a href="https://www.amazon.com" adcampaignid="55"> GO TO AMAZON </a>
-  <img src="https://www.facebook.com/tr?id=144682222847096&ev=PageView" />
 </form>
 
 ### Go to [Amazon](https://www.amazon.com)
