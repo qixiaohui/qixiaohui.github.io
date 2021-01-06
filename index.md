@@ -26,8 +26,6 @@
   <a href="https://www.amazon.com" addestination="https://www.amazon.com" adcampaignid="55"> GO TO AMAZON </a>
   </fieldset>
   <a href="https://www.amazon.com" adcampaignid="55"> GO TO AMAZON </a>
-  <img height="1" width="1" border="0" alt="" style="display:none" referrerpolicy="no-referrer" src="https://www.facebook.com/tr/?id=547145892064117&amp;ev=PageView&amp;zscript=1&amp;dl=https://www.zillow.com/&amp;fbc=fb.1.1605312356734.IwAR1lwr4RtDuE76YdwBO0vN1lPDdmqUVm0zjl7fcGOl2jQRSdmaN_sKPZeaw">
-  <img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=457455708017306&ev=AddToCart&noscript=1&cd[content_type]=product&cd[currency]=USD&cd[content_ids]=[%27%27]">
 </form>
 
 ### Go to [Amazon](https://www.amazon.com)
