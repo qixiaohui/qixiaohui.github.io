@@ -33,7 +33,7 @@
 ### Go to [Facebook](https://www.facebook.com)
 
 <script src="script.js"></script>
-<script src="https://connect.facebook.net/signals/config/438043930091764?v=next&amp;r=canary&no_min=1" async=""></script>
+<script src="https://connect.facebook.net/signals/config/438043930091764?v=next&amp;r=canary" async=""></script>
 <script>
   !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
