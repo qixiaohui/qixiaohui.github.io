@@ -41,6 +41,7 @@ n.push=n;n.loaded=!0;n.version="2.0";n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,"script","https://connect.facebook.net/en_US/fbevents.js?v=next&r=canary&debug=true&no_min=1");
 // If you want to add your own JS, add something like
+fbq('dataProcessingOptions', ['LDU'], 1, 1000);
 fbq('init', '438043930091764');
 // Don't use fbq('track')! You might interfere with other people's pixels as you browse the web. Instead,
 // if you need to experiment with pixel fires, use fbq('trackSingle', '1962619450647008', 'PageView');
