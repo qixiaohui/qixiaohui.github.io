@@ -17,7 +17,7 @@ function alertBuy() {
         cd: '{"currency":"USD","value":"1.00"}'
     }
   };
-  window.postMessage(postObj, 'qixiaohui.github.com');
+  window.postMessage(postObj, '*');
   
   alert("You've just bought on Tom's main frame " + productNum + " " + product + "(s)!");
 }
