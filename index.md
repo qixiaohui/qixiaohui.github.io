@@ -46,6 +46,14 @@ fbq('init', '438043930091764');
 // Don't use fbq('track')! You might interfere with other people's pixels as you browse the web. Instead,
 // if you need to experiment with pixel fires, use fbq('trackSingle', '1962619450647008', 'PageView');
 fbq('trackSingle', '438043930091764', 'PageView');
+  var postObj = {
+    pcmPixelPostMessageEvent: {
+        id: '54321',
+        ev: 'Purchase',
+        cd: '{"currency":"USD","value":"1.00"}'
+    }
+  };
+  window.postMessage(postObj, 'qixiaohui.github.com');
 </script>
 <script type='text/javascript'>
   window.onload = function() {
