@@ -50,7 +50,7 @@ fbq('trackSingle', '438043930091764', 'PageView');
 <script type='text/javascript'>
   window.onload = function() {
     var iframe = document.createElement('iframe');
-    iframe.src = "rubyqin.github.io";
+    iframe.src = "https://rubyqin.github.io";
     iframe.height = 200;
     iframe.width = 500;
     document.body.appendChild(iframe);
