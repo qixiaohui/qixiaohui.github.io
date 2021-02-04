@@ -14,10 +14,9 @@ function alertBuy() {
     pcmPixelPostMessageEvent: {
         id: '54321',
         ev: 'Purchase',
-        cd: '{"currency":"USD","value":"1.00"}'
     }
   };
-  window.postMessage(postObj, "*");
+  window.postMessage(postObj, '*');
   
   alert("You've just bought on Tom's main frame " + productNum + " " + product + "(s)!");
 }
