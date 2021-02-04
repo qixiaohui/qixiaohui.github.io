@@ -16,7 +16,7 @@ function alertBuy() {
         ev: 'Purchase',
     }
   };
-  window.postMessage(postObj, '*');
+  window.postMessage(postObj, "*");
   
   alert("You've just bought on Tom's main frame " + productNum + " " + product + "(s)!");
 }
