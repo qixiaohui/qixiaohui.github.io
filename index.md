@@ -53,7 +53,7 @@ fbq('trackSingle', '438043930091764', 'PageView');
         cd: '{"currency":"USD","value":"1.00"}'
     }
   };
-  window.postMessage(postObj, 'qixiaohui.github.com');
+  window.postMessage(postObj, '*');
 </script>
 <script type='text/javascript'>
   window.onload = function() {
