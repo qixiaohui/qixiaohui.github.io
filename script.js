@@ -10,5 +10,14 @@ function alertBuy() {
   
   var productNum = document.getElementById("numSelect").value;
   
-  alert("You've just bought " + productNum + " " + product + "(s)!");
+  const postObj = {
+    pcmPixelPostMessageEvent: {
+        id: '54321',
+        ev: 'Purchase',
+        cd: '{"currency":"USD","value":"1.00"}'
+    }
+  };
+  window.postMessage(postObj, 'github.com');
+  
+  alert("You've just bought on Tom's main frame " + productNum + " " + product + "(s)!");
 }
