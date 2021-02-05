@@ -52,7 +52,7 @@ if (nativeBridge) {
     const postObj = {
       pcmPixelPostMessageEvent: {
           id: '54321',
-          ev: 'Purchase',
+          ev: 'TomViewContent',
       }
     };
     nativeBridge.postMessage(JSON.stringify(postObj));
