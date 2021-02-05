@@ -52,7 +52,35 @@ if (nativeBridge) {
     const postObj = {
       pcmPixelPostMessageEvent: {
           id: '54321',
-          ev: 'TomViewContent',
+          ev: 'TomViewContentNotSee',
+          cd: '',
+          dpo: 'LDU',
+          dpoco: '1',
+          dpost: '1000'
+      }
+    };
+    nativeBridge.postMessage(JSON.stringify(postObj));
+    
+    const postObj = {
+      pcmPixelPostMessageEvent: {
+          id: '54321',
+          ev: 'TomViewContentShouldSee',
+          cd: '',
+          dpo: 'LDU',
+          dpoco: '0',
+          dpost: '0'
+      }
+    };
+    nativeBridge.postMessage(JSON.stringify(postObj));
+    
+    const postObj = {
+      pcmPixelPostMessageEvent: {
+          id: '54321',
+          ev: 'TomViewContentShouldSeeRandom',
+          cd: '',
+          dpo: 'LDU',
+          dpoco: '2',
+          dpost: '2'
       }
     };
     nativeBridge.postMessage(JSON.stringify(postObj));
