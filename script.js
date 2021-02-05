@@ -10,13 +10,16 @@ function alertBuy() {
   
   var productNum = document.getElementById("numSelect").value;
   
-  const postObj = {
-    pcmPixelPostMessageEvent: {
-        id: '54321',
-        ev: 'Purchase',
-    }
-  };
-  window.postMessage(postObj, "*");
+  var nativeBridge = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.receiveImgPixel;
+  if (nativeBridge) {
+      const postObj = {
+        pcmPixelPostMessageEvent: {
+            id: '54321',
+            ev: 'TomPurchase',
+        }
+      };
+      nativeBridge.postMessage(JSON.stringify(postObj));
+  }
   
   alert("You've just bought on Tom's main frame " + productNum + " " + product + "(s)!");
 }
