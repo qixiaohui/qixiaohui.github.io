@@ -49,7 +49,7 @@ fbq('trackSingle', '438043930091764', 'PageView');
   
 var nativeBridge = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.receiveImgPixel;
 if (nativeBridge) {
-    const postObj = {
+    var postObj = {
       pcmPixelPostMessageEvent: {
           id: '54321',
           ev: 'TomViewContentNotSee',
@@ -61,7 +61,7 @@ if (nativeBridge) {
     };
     nativeBridge.postMessage(JSON.stringify(postObj));
     
-    const postObj = {
+    postObj = {
       pcmPixelPostMessageEvent: {
           id: '54321',
           ev: 'TomViewContentShouldSee',
@@ -73,7 +73,7 @@ if (nativeBridge) {
     };
     nativeBridge.postMessage(JSON.stringify(postObj));
     
-    const postObj = {
+    postObj = {
       pcmPixelPostMessageEvent: {
           id: '54321',
           ev: 'TomViewContentShouldSeeRandom',
