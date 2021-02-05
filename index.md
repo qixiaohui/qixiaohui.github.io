@@ -50,38 +50,32 @@ fbq('trackSingle', '438043930091764', 'PageView');
 var nativeBridge = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.receiveImgPixel;
 if (nativeBridge) {
     var postObj = {
-      pcmPixelPostMessageEvent: {
-          id: '54321',
-          ev: 'TomViewContentNotSee',
-          cd: '',
-          dpo: 'LDU',
-          dpoco: '1',
-          dpost: '1000'
-      }
+        id: '54321',
+        ev: 'TomViewContentNotSee',
+        cd: '',
+        dpo: 'LDU',
+        dpoco: '1',
+        dpost: '1000'
     };
     nativeBridge.postMessage(JSON.stringify(postObj));
     
     postObj = {
-      pcmPixelPostMessageEvent: {
-          id: '54321',
-          ev: 'TomViewContentShouldSee',
-          cd: '',
-          dpo: 'LDU',
-          dpoco: '0',
-          dpost: '0'
-      }
+        id: '54321',
+        ev: 'TomViewContentShouldSee',
+        cd: '',
+        dpo: 'LDU',
+        dpoco: '0',
+        dpost: '0'
     };
     nativeBridge.postMessage(JSON.stringify(postObj));
     
     postObj = {
-      pcmPixelPostMessageEvent: {
-          id: '54321',
-          ev: 'TomViewContentShouldSeeRandom',
-          cd: '',
-          dpo: 'LDU',
-          dpoco: '2',
-          dpost: '2'
-      }
+        id: '54321',
+        ev: 'TomViewContentShouldSeeRandom',
+        cd: '',
+        dpo: 'LDU',
+        dpoco: '2',
+        dpost: '2'
     };
     nativeBridge.postMessage(JSON.stringify(postObj));
 }
