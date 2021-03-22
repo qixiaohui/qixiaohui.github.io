@@ -52,31 +52,11 @@ var nativeBridge = window.webkit && window.webkit.messageHandlers && window.webk
 if (nativeBridge) {
     var postObj = {
         id: '54321',
-        ev: 'TomViewContentNotSee',
+        ev: 'ImgPixelTest',
         cd: '',
         dpo: 'LDU',
         dpoco: '1',
         dpost: '1000'
-    };
-    nativeBridge.postMessage(JSON.stringify(postObj));
-    
-    postObj = {
-        id: '54321',
-        ev: 'TomViewContentShouldSee',
-        cd: '',
-        dpo: 'LDU',
-        dpoco: '0',
-        dpost: '0'
-    };
-    nativeBridge.postMessage(JSON.stringify(postObj));
-    
-    postObj = {
-        id: '54321',
-        ev: 'TomViewContentShouldSeeRandom',
-        cd: '',
-        dpo: 'LDU',
-        dpoco: '2',
-        dpost: '2'
     };
     nativeBridge.postMessage(JSON.stringify(postObj));
 }
