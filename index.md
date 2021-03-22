@@ -48,38 +48,38 @@ fbq('init', '438043930091764');
 // if you need to experiment with pixel fires, use fbq('trackSingle', '1962619450647008', 'PageView');
 fbq('trackSingle', '438043930091764', 'PageView');
   
-//var nativeBridge = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.receiveImgPixel;
-//if (nativeBridge) {
-//    var postObj = {
-//        id: '54321',
-//        ev: 'TomViewContentNotSee',
-//        cd: '',
-//        dpo: 'LDU',
-//        dpoco: '1',
-//        dpost: '1000'
-//    };
-//    nativeBridge.postMessage(JSON.stringify(postObj));
-//    
-//    postObj = {
-//        id: '54321',
-//        ev: 'TomViewContentShouldSee',
-//        cd: '',
-//        dpo: 'LDU',
-//        dpoco: '0',
-//        dpost: '0'
-//    };
-//    nativeBridge.postMessage(JSON.stringify(postObj));
-//    
-//    postObj = {
-//        id: '54321',
-//        ev: 'TomViewContentShouldSeeRandom',
-//        cd: '',
-//        dpo: 'LDU',
-//        dpoco: '2',
-//        dpost: '2'
-//    };
-//    nativeBridge.postMessage(JSON.stringify(postObj));
-//}
+var nativeBridge = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.receiveImgPixel;
+if (nativeBridge) {
+    var postObj = {
+        id: '54321',
+        ev: 'TomViewContentNotSee',
+        cd: '',
+        dpo: 'LDU',
+        dpoco: '1',
+        dpost: '1000'
+    };
+    nativeBridge.postMessage(JSON.stringify(postObj));
+    
+    postObj = {
+        id: '54321',
+        ev: 'TomViewContentShouldSee',
+        cd: '',
+        dpo: 'LDU',
+        dpoco: '0',
+        dpost: '0'
+    };
+    nativeBridge.postMessage(JSON.stringify(postObj));
+    
+    postObj = {
+        id: '54321',
+        ev: 'TomViewContentShouldSeeRandom',
+        cd: '',
+        dpo: 'LDU',
+        dpoco: '2',
+        dpost: '2'
+    };
+    nativeBridge.postMessage(JSON.stringify(postObj));
+}
 </script>
 <script type='text/javascript'>
   window.onload = function() {
